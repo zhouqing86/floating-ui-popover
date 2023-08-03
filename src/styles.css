@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  padding: 300px 0;
+  border: 1px solid #000;
+  overflow-y: auto;
+  max-height: 200px;
+  height: auto;
+}
+
+.Popover {
+  background: #222;
+  color: white;
+  border-radius: 6px;
+  padding: 4px 6px;
+  font-size: 14px;
+  text-align: left;
+}
